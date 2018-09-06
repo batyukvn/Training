@@ -4,7 +4,9 @@ public class MainClass {
 
  
     public static void main(String[] args) {
-        // 123
+        Frame start = new Frame();
+        start.setLocation(700, 300);
+        start.setVisible(true);
     }
     
 }
